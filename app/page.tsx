@@ -6,7 +6,7 @@ import GooglePlayBadge from "@/app/assets/images/GetItOnGooglePlay_Badge_Web_col
 import UnifestoIcon from "@/app/assets/images/unifesto-icon.png";
 
 export default function Home() {
-  const marqueeTexts = ["Get Drafted", "Build", "Win", "VCPL 2026"];
+  const marqueeTexts = ["Vibe Coding Premier League", "Get Drafted", "Build", "Win", "VCPL 2026"];
   
   return (
     <div className="flex flex-col flex-1">

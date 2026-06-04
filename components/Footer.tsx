@@ -30,6 +30,25 @@ export default function Footer() {
               <p className="text-xs text-zinc-500">
                 India's First Franchise-Based Vibe Coding Competition
               </p>
+              
+              {/* Contact Emails */}
+              <div className="pt-4 space-y-2">
+                <p className="text-xs text-zinc-500 font-medium">Contact Us:</p>
+                <div className="flex flex-col gap-1">
+                  <a 
+                    href="mailto:vcpl@unifesto.app" 
+                    className="text-sm text-zinc-400 hover:text-white transition-colors"
+                  >
+                    vcpl@unifesto.app
+                  </a>
+                  <a 
+                    href="mailto:beyond@unifesto.app" 
+                    className="text-sm text-zinc-400 hover:text-white transition-colors"
+                  >
+                    beyond@unifesto.app
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

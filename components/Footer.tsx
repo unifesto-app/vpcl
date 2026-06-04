@@ -22,7 +22,7 @@ export default function Footer() {
                   backgroundClip: "text",
                 }}
               >
-                VPCL
+                VCPL
               </h3>
               <p className="text-sm text-zinc-400">
                 Vibe Coding Premier League
@@ -43,7 +43,7 @@ export default function Footer() {
               Presented by <span className="font-medium text-zinc-400">BeyonD</span>. An Unifesto Initiative.
             </p>
             <p className="text-xs text-zinc-600">
-              © 2026 Unifesto Private Limited. All rights reserved.
+              © 2026 VCPL. All rights reserved.
             </p>
           </div>
         </div>

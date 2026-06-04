@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import VPCLLogo from "@/app/assets/images/Beyond-Logo.png";
+import VCPLLogo from "@/app/assets/images/Beyond-Logo.png";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -31,10 +31,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <nav className="flex items-center justify-start h-16 md:h-20" aria-label="Primary navigation">
           {/* Logo */}
-          <a href="/" aria-label="VPCL home" className="flex items-center group">
+          <a href="/" aria-label="VCPL home" className="flex items-center group">
             <Image
-              src={VPCLLogo}
-              alt="VPCL"
+              src={VCPLLogo}
+              alt="VCPL"
               className="h-12 md:h-16 w-auto transition-all duration-300"
               priority
             />

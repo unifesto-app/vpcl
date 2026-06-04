@@ -1,12 +1,12 @@
 import Footer from "@/components/Footer";
 import Image from "next/image";
-import VPCLHero from "@/app/assets/images/vpcl-hero.png";
+import VCPLHero from "@/app/assets/images/vpcl-hero.png";
 import AppStoreBadge from "@/app/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg";
 import GooglePlayBadge from "@/app/assets/images/GetItOnGooglePlay_Badge_Web_color_English.svg";
 import UnifestoIcon from "@/app/assets/images/unifesto-icon.png";
 
 export default function Home() {
-  const marqueeTexts = ["Get Drafted", "Build", "Win", "VPCL 2026"];
+  const marqueeTexts = ["Get Drafted", "Build", "Win", "VCPL 2026"];
   
   return (
     <div className="flex flex-col flex-1">
@@ -63,8 +63,8 @@ export default function Home() {
             {/* Main Headline - Hero Image */}
             <div className="flex justify-center">
               <Image
-                src={VPCLHero}
-                alt="VPCL - Vibe Coding Premier League"
+                src={VCPLHero}
+                alt="VCPL - Vibe Coding Premier League"
                 className="w-full max-w-3xl h-auto"
                 priority
               />
@@ -93,7 +93,7 @@ export default function Home() {
                 href="#sponsor"
                 className="w-full sm:w-auto px-6 py-3 rounded-full font-medium text-sm text-white border-2 border-zinc-700 hover:border-zinc-500 hover:bg-zinc-900 transition-all duration-300 text-center"
               >
-                Sponsor VPCL
+                Sponsor VCPL
               </a>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* What is VPCL Section */}
+      {/* What is VCPL Section */}
       <section className="py-16 sm:py-20 md:py-32 bg-black">
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div className="text-center mb-12">
@@ -130,11 +130,11 @@ export default function Home() {
                 backgroundClip: "text",
               }}
             >
-              What is VPCL?
+              What is VCPL?
             </h2>
             <div className="max-w-4xl mx-auto space-y-4 text-base md:text-lg text-zinc-300 leading-relaxed">
               <p>
-                VPCL is a competitive coding league inspired by franchise sports leagues.
+                VCPL is a competitive coding league inspired by franchise sports leagues.
               </p>
               <p>
                 Developers enter the player pool and get drafted into teams during a live auction.
@@ -177,7 +177,7 @@ export default function Home() {
               { 
                 step: "2", 
                 title: "Get Drafted", 
-                desc: "Teams build their squad through the VPCL Auction." 
+                desc: "Teams build their squad through the VCPL Auction." 
               },
               { 
                 step: "3", 
@@ -363,7 +363,7 @@ export default function Home() {
           {/* CTA */}
           <div className="text-center mt-12">
             <p className="text-sm text-zinc-500 mb-4">
-              Interested in partnering with VPCL?
+              Interested in partnering with VCPL?
             </p>
             <a
               href="https://forms.gle/JetNzejsXP7XmcR37"
@@ -442,7 +442,7 @@ export default function Home() {
                 Download Unifesto App
               </h2>
               <p className="text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto">
-                Stay updated with VPCL and all Unifesto events. Get notifications, track your progress, and connect with the community.
+                Stay updated with VCPL and all Unifesto events. Get notifications, track your progress, and connect with the community.
               </p>
             </div>
 

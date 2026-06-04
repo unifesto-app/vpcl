@@ -25,7 +25,7 @@ const agrandirGrandHeavy = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "VPCL - Vibe Coding Premier League",
+  title: "VCPL - Vibe Coding Premier League",
   description: "India's First Franchise-Based Vibe Coding Competition. Get Drafted. Build. Win.",
   icons: {
     icon: "/Beyond-Icon.png",

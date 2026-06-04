@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-agrandir), system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-agrandir), system-ui, -apple-system, sans-serif;
+}
+
+/* ─── Agrandir Font Classes ──────────────────────────────────────────── */
+/* Regular (default) - has built-in light and bold weights                */
+/* Use these 4 classes:                                                   */
+/*   - font-light  → Regular Light weight                                 */
+/*   - font-bold   → Regular Bold weight                                  */
+/*   - font-grandl → Grand Light (extra light)                            */
+/*   - font-grandh → Grand Heavy (extra bold)                             */
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-grandl {
+  font-family: var(--font-agrandir-grandl), system-ui, -apple-system, sans-serif;
+  font-weight: 300;
+}
+
+.font-grandh {
+  font-family: var(--font-agrandir-grandh), system-ui, -apple-system, sans-serif;
+  font-weight: 700;
+}
+
+/* Animations */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee 35s linear infinite reverse;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.3s ease-out;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  /* Prevent horizontal scroll */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+  
+  /* Improve touch targets */
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}

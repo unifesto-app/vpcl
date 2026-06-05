@@ -30,6 +30,9 @@ export default function Footer() {
               <p className="text-xs text-zinc-500">
                 India's First Franchise-Based Vibe Coding Competition
               </p>
+              <p className="text-xs font-medium text-zinc-400">
+                Season 1 · Hyderabad · 2026
+              </p>
               
               {/* Contact Emails */}
               <div className="pt-4 space-y-2">

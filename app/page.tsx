@@ -4,6 +4,7 @@ import VCPLHero from "@/app/assets/images/vpcl-hero.png";
 import AppStoreBadge from "@/app/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg";
 import GooglePlayBadge from "@/app/assets/images/GetItOnGooglePlay_Badge_Web_color_English.svg";
 import UnifestoIcon from "@/app/assets/images/unifesto-icon.png";
+import T2TLogo from "@/app/assets/images/t2t-logo.png";
 
 export default function Home() {
   const marqueeTexts = ["Vibe Coding Premier League", "Get Drafted", "Build", "Win", "VCPL 2026"];
@@ -583,8 +584,12 @@ export default function Home() {
             <div className="flex justify-center items-center">
               {/* Trash2Treasure - Sustainability Partner */}
               <div className="flex flex-col items-center gap-2">
-                <div className="w-40 h-20 bg-zinc-900 rounded-lg border border-zinc-800 flex items-center justify-center hover:border-zinc-700 transition-colors px-4">
-                  <span className="text-zinc-300 text-sm font-medium text-center">Trash2Treasure</span>
+                <div className="w-40 h-20 bg-zinc-900 rounded-lg border border-zinc-800 flex items-center justify-center hover:border-zinc-700 transition-colors p-3">
+                  <Image
+                    src={T2TLogo}
+                    alt="Trash2Treasure"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <span className="text-xs text-zinc-600">Sustainability Partner</span>
               </div>
@@ -718,7 +723,7 @@ export default function Home() {
             {/* App Store Badges */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
               <a
-                href="https://apps.apple.com"
+                href="https://apps.apple.com/in/app/unifesto-discover-events/id6767165496"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform duration-300 hover:scale-105"
@@ -730,7 +735,7 @@ export default function Home() {
                 />
               </a>
               <a
-                href="https://play.google.com"
+                href="https://play.google.com/store/apps/details?id=com.unifesto.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform duration-300 hover:scale-105"
